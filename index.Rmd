@@ -7,6 +7,8 @@ site: distill::distill_website
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(ggthemes)
 
 # Learn more about creating websites with Distill at:
 # https://rstudio.github.io/distill/website.html
@@ -15,4 +17,16 @@ knitr::opts_chunk$set(echo = FALSE)
 # https://rstudio.github.io/distill/publish_website.html#github-pages
 
 ```
+```{r car plot}
+mtcars %>% 
+select(mpg, wt) %>% 
+ggplot(mapping = aes(x = wt, y = mpg))+
+geom_point()+
+geom_smooth(method = "lm", formula = y ~ x, se = FALSE)+
+theme_clean()+
+labs(title = "yes", subtitle = "yes", x = "si", y = "ja", 
+caption = "national yes association")
+
+```
+
 
