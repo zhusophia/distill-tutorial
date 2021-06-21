@@ -8,3 +8,21 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## About Me
+I am the greatest being to every set foot on this earth. **Sophia Zhu**, White Oaks secondary School
+
+## About the Project
+*yes project*
+hallelujah, saving the world one line at a time
+
+### Goals 
+* hellaaa cool 
+  + im already ice so you can't get muchc ooler than that
+* start a cult
+
+1. Too good 
+ 
+"this is data science"  
+~ preceptitaro
+
+[Kane's free stuff](https://bootcamp.davidkane.info/)
